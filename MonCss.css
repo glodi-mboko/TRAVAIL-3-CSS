@@ -1,0 +1,105 @@
+body
+{
+
+    margin: 0 200px;
+    background-color: rgb(200, 200, 200);
+}
+
+h1
+{
+    font-size: 65px;
+    text-align: center;
+}
+
+p a
+{
+    color: rgb(207, 0, 37);
+    font-weight: bold;
+}
+
+h2
+{
+    color:rgb(207, 0, 37);
+    font-weight: bold;
+}
+
+th
+{
+    background-color:rgba(10, 10, 9, 0.753);
+    color: gainsboro;
+}
+
+table
+{
+    border-collapse: collapse;
+    height: 900px;
+}
+
+.ligne1
+{
+    background-color: rgb(221, 221, 221);
+}
+
+.ligne2
+{
+    background-color: rgb(200, 200, 200);
+}
+
+.année
+{
+    text-align: center;
+    font-weight: bold;   
+}
+
+#an, .année
+{
+    width: 80px;
+}
+
+img
+{
+   /*border :26px solid;
+   padding-left: rgba(10, 10, 9, 0.753) 40px;
+   padding-right: rgba(10, 10, 9, 0.753) 40px;*/
+   height: 88%;
+   width: 95%;
+   margin-bottom: 20px;
+}
+
+figure
+{
+    height: 850px;
+    margin: 0 0;
+    text-align: center;
+    border: 4px #cf0025 solid ;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 9, 0.753);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: honeydew;
+    font-weight: bold;
+}
+
+tbody tr:hover
+{
+    background: rgb(153, 153, 153) ;
+    cursor: pointer;
+}
+
+#p1, #p2, #p3
+{
+    font-size: 0.96rem ;
+}
+
+#p5
+{
+    margin: 0 20px;
+    padding: 15px;
+    border: 4px #4e41ae dashed;
+    line-height: 2em;
+    background-color: #b7b7b7;
+    color: #4e41ae;
+}
